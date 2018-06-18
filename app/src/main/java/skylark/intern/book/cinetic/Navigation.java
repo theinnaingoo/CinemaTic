@@ -46,7 +46,7 @@ public class Navigation extends AppCompatActivity
         fManager = getSupportFragmentManager();
         fTransaction = fManager.beginTransaction();
         fTransaction.replace(R.id.frame_layout, new Frg_Main()).commit();
-        user= new User(160722,"Ma Yamin Thu","09262742288","maungzwe.tutgo@gmail.com","QAZqaz123$%^");
+        user= new User(160722,"Mg Thein Naing Oo","09262742288","maungzwe.tutgo@gmail.com","QAZqaz123$%^");
 
 
         DrawerLayout drawer =  findViewById(R.id.drawer_layout);
