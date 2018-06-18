@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@color/colorDark"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_margin="8dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginRight="5dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:id="@+id/btn_save"
+            android:background="@drawable/button_background"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:id="@+id/btn_share"
+            android:background="@drawable/button_background"
+            android:textAllCaps="false"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linear">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/cene_name"
+        android:id="@+id/qrcyc"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="skylark.intern.book.cinetic">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cineticklogo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/apikey" />
+
+        <activity android:name=".LoginActivity" android:theme="@style/LoginTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Navigation"
+
+            ></activity>
+        <activity
+            android:name=".cinemas.MSanPya"
+            android:label="@string/msan" />
+        <activity
+            android:name=".cinemas.MGaMone"
+            android:label="@string/mga" />
+        <activity
+            android:name=".cinemas.MTheinGyi"
+            android:label="@string/mthe" />
+        <activity
+            android:name=".cinemas.MDagonCentre_II"
+            android:label="@string/mda" />
+        <activity
+            android:name=".cinemas.Twin"
+            android:label="@string/twin" />
+        <activity
+            android:name=".cinemas.ShaeSaung"
+            android:label="@string/east" />
+        <activity
+            android:name=".cinemas.ThaMaDa"
+            android:label="@string/presid" />
+        <activity
+            android:name=".cinemas.MWaziyar"
+            android:label="@string/mwaz" />
+        <activity android:name=".MovieDetail" />
+
+        <activity android:name=".BookingActivity" />
+        <activity android:name=".BookingDetail" />
+        <activity android:name=".ScreenShot" />
+
+    </application>
+
+</manifest>

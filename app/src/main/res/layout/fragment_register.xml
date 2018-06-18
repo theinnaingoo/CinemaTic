@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.Login"
+    android:orientation="vertical"
+   >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_profile"
+            android:layout_marginTop="30dp"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user"
+            android:textColorHint="@color/colorGreyDark"
+            android:layout_below="@+id/text_mpu">
+
+            <AutoCompleteTextView
+                android:id="@+id/username"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/colorGrey"/>
+
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp">
+        <ImageView
+            android:paddingLeft="5dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_email"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="5dp"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:textColorHint="@color/colorGreyDark"
+            android:layout_below="@+id/text_mpu">
+
+            <AutoCompleteTextView
+                android:id="@+id/userpassword"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textColor="@color/colorGrey"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp">
+        <ImageView
+            android:paddingLeft="5dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_lock"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="5dp"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/regesterpassword"
+            android:textColorHint="@color/colorGreyDark"
+            android:layout_below="@+id/text_mpu">
+
+            <AutoCompleteTextView
+                android:id="@+id/regpassword"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textColor="@color/colorGrey"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp">
+        <ImageView
+            android:paddingLeft="5dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_lock"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="5dp"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reenterpassword"
+            android:textColorHint="@color/colorGreyDark"
+            android:layout_below="@+id/text_mpu">
+
+            <AutoCompleteTextView
+                android:id="@+id/repassword"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Re-enter password"
+                android:textColor="@color/colorGrey"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp">
+        <ImageView
+            android:paddingLeft="5dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_phone"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="5dp"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone"
+            android:textColorHint="@color/colorGreyDark"
+            android:layout_below="@+id/text_mpu">
+
+            <AutoCompleteTextView
+                android:id="@+id/phoneNumber"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:textColor="@color/colorGrey"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/bottom_bg_less_corner"
+        android:text="Register"
+        android:id="@+id/register"
+        android:textAllCaps="false"
+        android:textColor="@color/colorGrey"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

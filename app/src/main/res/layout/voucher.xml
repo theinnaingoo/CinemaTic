@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <android.support.v7.widget.CardView
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:id="@+id/card"
+        app:cardElevation="4dp"
+        app:contentPadding="2dp"
+
+        android:layout_marginTop="8sp"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:src="@drawable/mingalar_waziyar"
+                android:id="@+id/qrshowcine"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/qrmoviename"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/lin"
+                    android:paddingLeft="@dimen/fab_margin"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        android:fontFamily="serif"
+                        android:text="Cinema"
+                        android:id="@+id/txtcinema"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:textColor="@color/colorDark"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="14sp"
+                        android:fontFamily="serif"
+                        android:id="@+id/qrcinema"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/fab_margin"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        android:fontFamily="serif"
+                        android:id="@+id/txtseat"
+                        android:text="Seat"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:textColor="@color/colorDark"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="14sp"
+                        android:fontFamily="serif"
+                        android:id="@+id/qrseat"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/lin1"
+                    android:paddingLeft="@dimen/fab_margin"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        android:fontFamily="serif"
+                        android:id="@+id/txtdate"
+                        android:text="Date"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:textColor="@color/colorDark"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="14sp"
+                        android:fontFamily="serif"
+                        android:id="@+id/qrdate"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/fab_margin"
+                   >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="12sp"
+                        android:fontFamily="serif"
+                        android:id="@+id/txttime"
+                        android:text="Time"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="-"
+                        android:textColor="@color/colorDark"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColorSecondary"
+                        android:textSize="14sp"
+                        android:fontFamily="serif"
+                        android:id="@+id/qrtime"/>
+
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

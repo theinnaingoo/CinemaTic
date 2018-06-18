@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CinemaTic</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="init">အနႏၵစစ္ပြဲ</string>
+    <string name="tgsm">အၾကီးက်ယ္ဆံုုး ျပပြဲျပသူ</string>
+    <string name="dun">ဒန္းကတ္စ္</string>
+    <string name="tsow">ေရပုံသ႑ာန္</string>
+    <string name="ant">ပုုေရာစိတ္လူသားနွင့္နက်ယ္လူသား</string>
+    <string name="ve">ဗီႏြန္</string>
+    <string name="win">သူရဲအိမ္ျကီး</string>
+    <string name="dead">Deadpool2</string>
+    <string name="aqua">ေရဘုုရင္ၾကီး</string>
+    <string name="msan">မဂၤလာ စံျပ</string>
+    <string name="mthe">မဂၤလာ သိမ္ၾကီးေစ်း</string>
+    <string name="mga">မဂၤလာ ဂမုုန္းပြင့္</string>
+    <string name="mda">မဂၤလာ ဒဂံုုစင္တာ ၂</string>
+    <string name="twin">သြင္</string>
+    <string name="east">ေရွ႕ေဆာင္</string>
+    <string name="presid">သမၼတ</string>
+    <string name="mwaz">မဂၤလာ ၀ဇီယာ</string>
+    <string name="msanlo">၂၀၂/၂၀၆ အေနာ္ရထာလမ္း၊ လမ္းမေတာ္</string>
+    <string name="mgalo">မဂၤလာ Cineplex၊ ဂမုုန္းပြင့္ေစ်း၊ လွည္းတန္း- စံရိပ္ျငိမ္၊ ကမာရြတ္</string>
+    <string name="mthelo">၅လႊာ၊ Dရံုု၊ သိမ္ၾကီးေစ်း၊ လသာ</string>
+    <string name="mdalo">၂၆၈၊ ၅လႊာ၊ ဒဂံုုစင္တာ၂၊ ေျမနီကုုန္း၊ စမ္းေခ်ာင္း</string>
+    <string name="twinlo">၃၀၆၊ ဗိုုလ္ခ်ဳပ္ေအာင္ဆန္းလမ္း၊ ေက်ာက္တံတား</string>
+    <string name="eastlo">၁၉ ၈ ၂၀၀၊ ဆူးေလဘုုရားလမ္း၊ ေက်ာက္တံတား</string>
+    <string name="presidlo">၅၊ ေယာမင္ၾကီးလမ္းေထာင့္၊ အလံျပဘုုရားလမ္း၊ ဒဂံုု</string>
+    <string name="mwazlo">ဗိုုလ္ေအာင္ေက်ာ္လမ္းနွင့္လွဳိင္ျမစ္လမ္းေထာင့္</string>
+</resources>

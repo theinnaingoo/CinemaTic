@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+
+    >
+    <android.support.v7.widget.CardView
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:cardCornerRadius="8dp"
+        android:id="@+id/card"
+        app:cardElevation="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cinema"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/cene_name"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="@dimen/innerCloseMargin"
+                android:src="@drawable/ic_call_white"
+                android:layout_below="@+id/cinema"
+                android:id="@+id/call"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/call"
+                android:textColor="@color/textColorSecondary"
+                android:layout_below="@+id/cinema"
+                android:fontFamily="serif"
+                android:textSize="12sp"
+                android:layout_marginRight="@dimen/innerCloseMargin"
+
+                android:layout_marginBottom="@dimen/innerCloseMargin"
+                android:id="@+id/phone"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="@dimen/innerCloseMargin"
+                android:src="@drawable/ic_place_white"
+                android:layout_below="@+id/call"
+                android:id="@+id/place"/>
+            <TextView
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/place"
+                android:layout_below="@+id/call"
+                android:textColor="@color/textColorSecondary"
+                android:id="@+id/address"
+                android:layout_marginRight="@dimen/innerCloseMargin"
+                android:textSize="12sp"
+                android:layout_marginBottom="@dimen/innerCloseMargin"
+                android:fontFamily="serif"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

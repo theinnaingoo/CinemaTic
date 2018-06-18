@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:fontFamily="serif"
+            android:title="Home" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_profile"
+            android:fontFamily="serif"
+            android:title="Profile" />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/ic_history"
+            android:fontFamily="serif"
+            android:title="Booking History" />
+
+
+    <item
+        android:id="@+id/mytickets"
+        android:icon="@drawable/ic_mytick"
+        android:fontFamily="serif"
+        android:title="My Tickets" />
+
+</group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_about"
+                android:title="About"
+                android:fontFamily="serif"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"
+                android:fontFamily="serif"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout"
+                android:fontFamily="serif"/>
+        </menu>
+    </item>
+
+</menu>

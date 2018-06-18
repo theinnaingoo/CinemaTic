@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorDark"
+    tools:context=".cinemas.MSanPya">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/z_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"></android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        app:layout_collapseMode="pin">
+
+        <ImageView
+            android:id="@+id/msnapya"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/twin" />
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="bottom"
+
+            >
+
+            <Button
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:onClick="onClick"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/button_background"
+                android:text="Location"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/call"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/button_background"
+                android:text="Call Now"
+                android:onClick="onClick"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:fontFamily="serif"
+        android:text="Show Time: 10:00AM 12:30PM 3:30PM 6:30PM 9:30PM"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@color/colorPrimary"/>
+
+    <FrameLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/sanpyainfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"></FrameLayout>
+
+
+
+</LinearLayout>

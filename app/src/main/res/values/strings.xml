@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CinemaTic</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Booking fragment</string>
+    <string name="tgsm">The Greatest Showman</string>
+    <string name="init">Infinity War</string>
+    <string name="dun">Dunkrik</string>
+    <string name="tsow">The Shape of Water</string>
+    <string name="ant">Ant Man And The Wasp</string>
+    <string name="ve">Venom</string>
+    <string name="win">Wincheaster</string>
+    <string name="dead">Deadpool2</string>
+    <string name="aqua">Aquaman</string>
+    <string name="msan">Mingalar San Pya</string>
+    <string name="mga">Mingalar Cineplex (Ga Mone Pwint)</string>
+    <string name="mthe">Mingalar Thein Gyi Zay</string>
+    <string name="mda">Mingalar Dagon Centre II</string>
+    <string name="twin">Twin</string>
+    <string name="east">Shae Saung</string>
+    <string name="presid">Thamada</string>
+    <string name="mwaz">Mingalar Waziyar</string>
+    <string name="apikey">AIzaSyAhd8H8f_RPuCBOoeHm3nYscpk6BSBJ9JE</string>
+    <string name="msanlo">202/206, Anawraht Rt., Lan ma daw</string>
+    <string name="mgalo">Mingalar Cineplex, Ga Mone Pwint Mall, Hledan- San Yeik Nyein, Kamaryouk Township</string>
+    <string name="mthelo">5th Floor, Shed D, Thein Gyi Market, la thar</string>
+    <string name="mdalo">268, 5th Floor, Dagon Centre2, Myae NI Gone(North Ward), San Gyaung</string>
+    <string name="twinlo">309, Bogyoke Aung San Rd, Kyout Da Dar</string>
+    <string name="eastlo">No. 198/200, Sule Pagoda Road, Kyouktada</string>
+    <string name="presidlo">5, Coner of Yaw Min Gyi St, Alanpya Pagoda Rd., Yaw Min Gyi Ward, Dagon</string>
+    <string name="mwazlo">Near Mingwe Zei, Coner of Bo Aung Kyaw Rd and Hlaing River Rd, Hlaing Thar Yar</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Cinema Tickets Booking</string>
+    <string name="nav_header_subtitle">www.skylarkmyanmar.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
