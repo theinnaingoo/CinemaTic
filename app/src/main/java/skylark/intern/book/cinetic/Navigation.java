@@ -42,7 +42,7 @@ public class Navigation extends AppCompatActivity
         setSupportActionBar(toolbar);
 
 
-
+        //commiter by thein naing oo
 
         fManager = getSupportFragmentManager();
         fTransaction = fManager.beginTransaction();
